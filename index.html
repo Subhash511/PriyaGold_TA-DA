@@ -84,6 +84,16 @@
         display: none;
         }
 
+.form-header {
+        display: grid;
+        place-items: center; /* Centers both vertically and horizontally */
+        text-align: center;
+        }
+        .form-header img {
+        max-width: 100%;
+        height: auto;
+        }
+
   </style>
 </head>
 <body>
@@ -94,7 +104,12 @@
  
   id="travelForm"
 >
-  <h2 style="text-align:center">Priya Gold TA/DA Form</h2>
+
+<div class="form-header">
+          <img src="https://priyagold.eazydms.in/img/logo.png" alt="Logo" width=150>
+          
+          <h2 style="text-align:center">Priya Gold TA/DA Form</h2>
+    </div>
 
   <label for="state">State:</label>
   <select id="state" name="state" required>
