@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Priya Gold TA/DA Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial;
+      background: #f1f1f1;
+      padding: 20px;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+    select, input, button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      box-sizing: border-box; /* Important for consistent width with padding/border */
+    }
+    button {
+      background: #28a745;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    button:disabled {
+      background: #aaa;
+      cursor: not-allowed;
+    }
+    button:hover:not(:disabled) {
+      background: #218838;
+    }
+    .hidden {
+      display: none;
+    }
+    .success {
+      color: green;
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .error {
+      color: red;
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .spinner {
+      text-align: center;
+      display: none;
+      margin-top: 15px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    table input {
+      width: 100%;
+      border: none;
+      padding: 4px;
+      box-sizing: border-box;
+    }
+    .hidden {
+        display: none;
+        }
+
+  </style>
+</head>
+<body>
+
+<form
+  method="POST"
+  enctype="multipart/form-data"
+ 
+  id="travelForm"
+>
+  <h2 style="text-align:center">Priya Gold TA/DA Form</h2>
+
+  <label for="state">State:</label>
+  <select id="state" name="state" required>
+    <option value="">Select</option>
+  </select>
+
+  <label for="designation">User Designation:</label>
+  <select id="designation" name="designation" required>
+    <option value="">Select</option>
+  </select>
+
+  <label for="hq">HQ:</label>
+  <select id="hq" name="hq" required>
+    <option value="">Select</option>
+  </select>
+
+  <label for="user">User:</label>
+  <select id="user" name="user" required>
+    <option value="">Select</option>
+  </select>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required />
+
+  <div id="details" class="hidden">
+
+    <label for="month">Date:</label>
+    <input type="date" id="month" name="month" required>
+
+    <label for="PlaceFrom">Place From:</label>
+    <input type="text" id="PlaceFrom" name="PlaceFrom" required>
+
+    <label for="PlaceTo">Place To:</label>
+    <input type="text" id="PlaceTo" name="PlaceTo" required>
+
+    <label for="DistanceinKm">Distance in Km:</label>
+    <input type="number" id="DistanceinKm" name="DistanceinKm" required>
+
+    <label for="NightAllowance">Night Allowance (₹):</label>
+    <input type="number" id="NightAllowance" name="NightAllowance">
+
+    <label for="file">Bills Uploaded (Image/PDF):</label>
+    <input type="file" id="file" name="file" accept=".jpg,.jpeg,.png,.pdf">
+  </div>
+  <br><br>
+  <button type="submit" id="submitBtn">Submit</button>
+  <br><br>
+
+  <div class="spinner" id="spinner">⏳ Submitting, please wait...</div>
+  <div class="success hidden" id="successMessage">✔️ Form submitted successfully!</div>
+  <div class="error hidden" id="errorMessage">❌ Submission failed. Try again.</div>
+
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="handleResponse()"></iframe>
+
+
+<script>
+  let jsonData = {};
+  const stateEl = document.getElementById('state');
+  const designationEl = document.getElementById('designation');
+  const hqEl = document.getElementById('hq');
+  const userEl = document.getElementById('user');
+  const passwordEl = document.getElementById('password');
+  const detailsEl = document.getElementById('details');
+  const form = document.getElementById('travelForm');
+  const successMessage = document.getElementById('successMessage');
+  const errorMessage = document.getElementById('errorMessage');
+  const spinner = document.getElementById('spinner');
+  const submitBtn = document.getElementById('submitBtn');
+
+  async function loadData() {
+    try {
+      const response = await fetch('./data/dropdown.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      jsonData = await response.json();
+
+      Object.keys(jsonData).forEach(state => {
+        stateEl.add(new Option(state, state));
+      });
+    } catch (error) {
+      alert("Failed to load dropdown data.");
+      console.error("Error loading data:", error);
+    }
+  }
+
+  stateEl.addEventListener('change', () => {
+    designationEl.innerHTML = '<option value="">Select</option>';
+    hqEl.innerHTML = '<option value="">Select</option>';
+    userEl.innerHTML = '<option value="">Select</option>';
+    detailsEl.classList.add('hidden');
+    passwordEl.value = ''; // Clear password when state changes
+    const designations = Object.keys(jsonData[stateEl.value] || {});
+    designations.forEach(d => designationEl.add(new Option(d, d)));
+  });
+
+  designationEl.addEventListener('change', () => {
+    hqEl.innerHTML = '<option value="">Select</option>';
+    userEl.innerHTML = '<option value="">Select</option>';
+    detailsEl.classList.add('hidden');
+    passwordEl.value = ''; // Clear password when designation changes
+    const hqs = Object.keys(jsonData[stateEl.value]?.[designationEl.value] || {});
+    hqs.forEach(h => hqEl.add(new Option(h, h)));
+  });
+
+  hqEl.addEventListener('change', () => {
+    userEl.innerHTML = '<option value="">Select</option>';
+    detailsEl.classList.add('hidden');
+    passwordEl.value = ''; // Clear password when HQ changes
+    const users = Object.keys(jsonData[stateEl.value]?.[designationEl.value]?.[hqEl.value] || {});
+    users.forEach(u => userEl.add(new Option(u, u)));
+  });
+
+  userEl.addEventListener('change', () => {
+    passwordEl.value = '';
+    detailsEl.classList.add('hidden');
+  });
+
+  passwordEl.addEventListener('input', () => {
+    const user = userEl.value;
+    const correctPassword = jsonData[stateEl.value]?.[designationEl.value]?.[hqEl.value]?.[user]?.password;
+    if (correctPassword !== undefined && passwordEl.value === correctPassword.toString()) {
+      detailsEl.classList.remove('hidden');
+    } else {
+      detailsEl.classList.add('hidden');
+    }
+  });
+
+
+document.getElementById("travelForm").addEventListener("submit", async function (e) {
+  e.preventDefault();
+  spinner.style.display = 'block';
+  successMessage.classList.add('hidden');
+  errorMessage.classList.add('hidden');
+
+  try {
+    const form = e.target;
+
+    const fileInput = document.getElementById("file");
+    const file = fileInput.files[0];
+
+    // Convert file to base64
+    const toBase64 = file => new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => resolve(reader.result); // Full base64 string with mime
+      reader.onerror = error => reject(error);
+    });
+
+    const base64File = file ? await toBase64(file) : null;
+
+    const payload = {
+      state: form.state.value,
+      designation: form.designation.value,
+      hq: form.hq.value,
+      user: form.user.value,
+      password: form.password.value,
+      month: form.month.value,
+      PlaceFrom: form.PlaceFrom.value,
+      PlaceTo: form.PlaceTo.value,
+      DistanceinKm: form.DistanceinKm.value,
+      NightAllowance: form.NightAllowance.value,
+      file: {
+        name: file?.name || '',
+        type: file?.type || '',
+        content: base64File || ''
+      }
+    };
+
+    const response = await fetch("https://script.google.com/macros/s/AKfycbxS6EREnSstKSHTROU5LEzjKdRawjFlzibyjKnNT1mahAQPNp7xZzUO9jwkP449Tfewcg/exec", {
+      method: "POST",
+      body: JSON.stringify(payload)
+    });
+
+    const result = await response.json();
+    spinner.style.display = 'none';
+
+    if (result.status === "success") {
+      successMessage.classList.remove('hidden');
+      showSuccessMessage();
+      form.reset();
+      detailsEl.classList.add('hidden');
+    } else {
+      errorMessage.textContent = "❌ Submission failed: " + result.message;
+      errorMessage.classList.remove('hidden');
+    }
+
+  } catch (error) {
+    console.error("Error:", error);
+    errorMessage.textContent = "❌ Submission failed: " + error.message;
+    errorMessage.classList.remove('hidden');
+    spinner.style.display = 'none';
+  }
+});
+
+
+function showSuccessMessage() {
+    const msg = document.getElementById("successMessage");
+    msg.classList.remove("hidden");
+
+    // Hide after 3 seconds
+    setTimeout(() => {
+      msg.classList.add("hidden");
+    }, 3000);
+  }
+
+  loadData();
+</script>
+
+</body>
+</html>
