@@ -28,6 +28,7 @@
       margin-top: 5px;
       border-radius: 4px;
       border: 1px solid #ccc;
+      box-sizing: border-box; /* Important for consistent width with padding/border */
     }
     button {
       background: #28a745;
@@ -52,6 +53,17 @@
       text-align: center;
       font-weight: bold;
     }
+    .error {
+      color: red;
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .spinner {
+      text-align: center;
+      display: none;
+      margin-top: 15px;
+    }
     table {
       width: 100%;
       border-collapse: collapse;
@@ -60,6 +72,7 @@
     th, td {
       border: 1px solid #ccc;
       padding: 8px;
+      text-align: left;
     }
     table input {
       width: 100%;
@@ -67,7 +80,11 @@
       padding: 4px;
       box-sizing: border-box;
     }
-    .form-header {
+    .hidden {
+        display: none;
+        }
+
+.form-header {
         display: grid;
         place-items: center; /* Centers both vertically and horizontally */
         text-align: center;
@@ -76,57 +93,79 @@
         max-width: 100%;
         height: auto;
         }
+
   </style>
 </head>
 <body>
 
-<form id="travelForm" enctype="multipart/form-data" novalidate>
-  <div class="form-header">
+<form
+  method="POST"
+  enctype="multipart/form-data"
+ 
+  id="travelForm"
+>
+
+<div class="form-header">
           <img src="https://priyagold.eazydms.in/img/logo.png" alt="Logo" width=150>
           
           <h2 style="text-align:center">Priya Gold TA/DA Form</h2>
     </div>
 
   <label for="state">State:</label>
-  <select id="state" required></select>
+  <select id="state" name="state" required>
+    <option value="">Select</option>
+  </select>
 
   <label for="designation">User Designation:</label>
-  <select id="designation" required></select>
+  <select id="designation" name="designation" required>
+    <option value="">Select</option>
+  </select>
 
   <label for="hq">HQ:</label>
-  <select id="hq" required></select>
+  <select id="hq" name="hq" required>
+    <option value="">Select</option>
+  </select>
 
   <label for="user">User:</label>
-  <select id="user" required></select>
+  <select id="user" name="user" required>
+    <option value="">Select</option>
+  </select>
 
   <label for="password">Password:</label>
-  <input type="password" id="password" required />
+  <input type="password" id="password" name="password" required />
 
   <div id="details" class="hidden">
-    <label for="month">Month:</label>
-    <input type="month" id="month" required />
 
-    <label for="week">Week:</label>
-    <select id="week" required>
-      <option value="">Select</option>
-      <option>Week-1</option>
-      <option>Week-2</option>
-      <option>Week-3</option>
-      <option>Week-4</option>
-    </select>
+    <label for="month">Date:</label>
+    <input type="date" id="month" name="month" required>
+
+    <label for="PlaceFrom">Place From:</label>
+    <input type="text" id="PlaceFrom" name="PlaceFrom" required>
+
+    <label for="PlaceTo">Place To:</label>
+    <input type="text" id="PlaceTo" name="PlaceTo" required>
+
+    <label for="DistanceinKm">Distance in Km:</label>
+    <input type="number" id="DistanceinKm" name="DistanceinKm" required>
+
+    <label for="NightAllowance">Night Allowance (₹):</label>
+    <input type="number" id="NightAllowance" name="NightAllowance">
 
     <label for="file">Bills Uploaded (Image/PDF):</label>
-    <input type="file" id="file" accept=".jpg,.jpeg,.png,.pdf" />
-
-    <div id="taDaTableContainer" class="hidden">
-      <h3>TA/DA Table</h3>
-      <div id="taDaTable"></div>
-    </div>
+    <input type="file" id="file" name="file" accept=".jpg,.jpeg,.png,.pdf">
   </div>
   <br><br>
   <button type="submit" id="submitBtn">Submit</button>
-  <div class="success hidden" id="successMessage">Form submitted successfully!</div>
+  <br><br>
+
+  <div class="spinner" id="spinner">⏳ Submitting, please wait...</div>
+  <div class="success hidden" id="successMessage">✔️ Form submitted successfully!</div>
+  <div class="error hidden" id="errorMessage">❌ Submission failed. Try again.</div>
+
 </form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="handleResponse()"></iframe>
+
 
 <script>
   let jsonData = {};
@@ -136,11 +175,10 @@
   const userEl = document.getElementById('user');
   const passwordEl = document.getElementById('password');
   const detailsEl = document.getElementById('details');
-  const weekEl = document.getElementById("week");
-  const taDaTableContainer = document.getElementById("taDaTableContainer");
-  const taDaTable = document.getElementById("taDaTable");
   const form = document.getElementById('travelForm');
   const successMessage = document.getElementById('successMessage');
+  const errorMessage = document.getElementById('errorMessage');
+  const spinner = document.getElementById('spinner');
   const submitBtn = document.getElementById('submitBtn');
 
   async function loadData() {
@@ -203,126 +241,82 @@
   });
 
 
-  function generateTable(startDay, endDay) {
-    let html = `<table>
-      <tr>
-        <th>Day</th>
-        <th>Place From</th>
-        <th>Place To</th>
-        <th>Distance in Km</th>
-        <th>Night Allowance (₹)</th>
-      </tr>`;
+document.getElementById("travelForm").addEventListener("submit", async function (e) {
+  e.preventDefault();
+  spinner.style.display = 'block';
+  successMessage.classList.add('hidden');
+  errorMessage.classList.add('hidden');
 
-    for (let i = startDay; i <= endDay; i++) {
-      html += `
-        <tr>
-          <td>Day ${i}</td>
-          <td><input type="text" name="place_from_${i}" /></td>
-          <td><input type="text" name="place_to_${i}" /></td>
-          <td><input type="number" name="distance_${i}" min="0" /></td>
-          <td><input type="number" name="night_allowance_${i}" min="0" /></td>
-        </tr>`;
-    }
-
-    html += `</table>`;
-    taDaTable.innerHTML = html;
-  }
-
-  weekEl.addEventListener("change", () => {
-    const selectedWeek = weekEl.value;
-    taDaTableContainer.classList.remove("hidden");
-
-    const selectedMonth = document.getElementById("month").value;
-    if (!selectedMonth) return;
-    const [year, month] = selectedMonth.split("-");
-    const daysInMonth = new Date(year, month, 0).getDate();
-
-    switch (selectedWeek) {
-      case "Week-1": generateTable(1, 7); break;
-      case "Week-2": generateTable(8, 14); break;
-      case "Week-3": generateTable(15, 21); break;
-      case "Week-4": generateTable(22, daysInMonth); break;
-      default:
-        taDaTable.innerHTML = '';
-        taDaTableContainer.classList.add("hidden");
-    }
-  });
-
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-
-    submitBtn.disabled = true;
-    successMessage.classList.add("hidden");
-
-    const formData = {
-      State: stateEl.value,
-      Designation: designationEl.value,
-      HQ: hqEl.value,
-      User: userEl.value,
-      Month: document.getElementById("month").value,
-      Week: weekEl.value,
-      Entries: []
-    };
+  try {
+    const form = e.target;
 
     const fileInput = document.getElementById("file");
-  const file = fileInput.files[0];
+    const file = fileInput.files[0];
 
-  // Read file as base64 if present
-  if (file) {
-    const base64String = await new Promise((resolve, reject) => {
+    // Convert file to base64
+    const toBase64 = file => new Promise((resolve, reject) => {
       const reader = new FileReader();
-      reader.onload = () => resolve(reader.result.split(',')[1]);  // remove data:<type>;base64,
-      reader.onerror = reject;
       reader.readAsDataURL(file);
+      reader.onload = () => resolve(reader.result); // Full base64 string with mime
+      reader.onerror = error => reject(error);
     });
 
-    formData.File = {
-      name: file.name,
-      type: file.type,
-      content: base64String
+    const base64File = file ? await toBase64(file) : null;
+
+    const payload = {
+      state: form.state.value,
+      designation: form.designation.value,
+      hq: form.hq.value,
+      user: form.user.value,
+      password: form.password.value,
+      month: form.month.value,
+      PlaceFrom: form.PlaceFrom.value,
+      PlaceTo: form.PlaceTo.value,
+      DistanceinKm: form.DistanceinKm.value,
+      NightAllowance: form.NightAllowance.value,
+      file: {
+        name: file?.name || '',
+        type: file?.type || '',
+        content: base64File || ''
+      }
     };
-  }
 
-    const rows = document.querySelectorAll("#taDaTable tr");
-    rows.forEach((row, index) => {
-      if (index === 0) return; // skip header
-      const inputs = row.querySelectorAll("input");
-      const [from, to, distance, night] = inputs;
-      const day = row.querySelector("td")?.textContent;
-      if (from?.value || to?.value || distance?.value || night?.value) {
-        formData.Entries.push({
-          Day: day,
-          Place_From: from.value.trim(),
-          Place_To: to.value.trim(),
-          Distance_KM: distance.value.trim(),
-          Night_Allowance_Rs: night.value.trim()
-        });
-      }
+    const response = await fetch("https://script.google.com/macros/s/AKfycbxS6EREnSstKSHTROU5LEzjKdRawjFlzibyjKnNT1mahAQPNp7xZzUO9jwkP449Tfewcg/exec", {
+      method: "POST",
+      body: JSON.stringify(payload)
     });
 
-    try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbx02pijsNJ6yneyqxwInaSqzxyO0G3quT92-Wld8IpyxHULuPuJBLB03fKC_E15KsxecQ/exec", {
-        method: "POST",
-        body: JSON.stringify(formData)
-      });
+    const result = await response.json();
+    spinner.style.display = 'none';
 
-      if (res.ok) {
-        form.reset();
-        taDaTable.innerHTML = '';
-        detailsEl.classList.add("hidden");
-        taDaTableContainer.classList.add("hidden");
-        successMessage.classList.remove("hidden");
-        setTimeout(() => successMessage.classList.add("hidden"), 5000);
-      } else {
-        alert("Form submission failed.");
-      }
-    } catch (err) {
-      console.error("Error submitting form", err);
-      alert("An error occurred.");
-    } finally {
-      submitBtn.disabled = false;
+    if (result.status === "success") {
+      successMessage.classList.remove('hidden');
+      showSuccessMessage();
+      form.reset();
+      detailsEl.classList.add('hidden');
+    } else {
+      errorMessage.textContent = "❌ Submission failed: " + result.message;
+      errorMessage.classList.remove('hidden');
     }
-  });
+
+  } catch (error) {
+    console.error("Error:", error);
+    errorMessage.textContent = "❌ Submission failed: " + error.message;
+    errorMessage.classList.remove('hidden');
+    spinner.style.display = 'none';
+  }
+});
+
+
+function showSuccessMessage() {
+    const msg = document.getElementById("successMessage");
+    msg.classList.remove("hidden");
+
+    // Hide after 3 seconds
+    setTimeout(() => {
+      msg.classList.add("hidden");
+    }, 3000);
+  }
 
   loadData();
 </script>
