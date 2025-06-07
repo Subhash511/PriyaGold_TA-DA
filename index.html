@@ -151,6 +151,9 @@
       }
       jsonData = await response.json();
 
+      // Insert default "Select State" option first
+      stateEl.innerHTML = '<option value="">Select State</option>';
+
       Object.keys(jsonData).forEach(state => {
         stateEl.add(new Option(state, state));
       });
