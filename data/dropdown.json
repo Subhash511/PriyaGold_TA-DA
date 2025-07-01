@@ -349,12 +349,6 @@
                     "user": [
                         "Narender"
                     ]
-                },
-                "Rahul": {
-                    "password": 2927,
-                    "user": [
-                        "Rahul"
-                    ]
                 }
             },
             "Bawal- Noodles": {
@@ -663,14 +657,6 @@
                     ]
                 }
             },
-            "Fatehbad(Hisar)": {
-                "Tijendar": {
-                    "password": 1722,
-                    "user": [
-                        "Tijendar"
-                    ]
-                }
-            },
             "Jhajjar-Noodles": {
                 "Ravinder": {
                     "password": 3885,
@@ -790,6 +776,14 @@
                     "password": 8092,
                     "user": [
                         "Chanrasen"
+                    ]
+                }
+            },
+            "Solan- Noodle": {
+                "Pankaj Walia": {
+                    "password": 3922,
+                    "user": [
+                        "Pankaj Walia"
                     ]
                 }
             }
@@ -1626,6 +1620,14 @@
                         "Punit Kansara"
                     ]
                 }
+            },
+            "Jaipur": {
+                "Mahendra Singh Pal": {
+                    "password": 6533,
+                    "user": [
+                        "Mahendra Singh Pal"
+                    ]
+                }
             }
         },
         "TSI": {
@@ -1874,674 +1876,6 @@
         }
     },
     "Maharashtra": {
-        "ASM": {
-            "ANDHERI": {
-                "ANIL JAMADAR  SINGH": {
-                    "password": 1508,
-                    "user": [
-                        "ANIL JAMADAR  SINGH"
-                    ]
-                }
-            },
-            "PUNE": {
-                "MR. SUNIL PANDURANG NAGARE": {
-                    "password": 1409,
-                    "user": [
-                        "MR. SUNIL PANDURANG NAGARE"
-                    ]
-                }
-            },
-            "TALOJA": {
-                "DINESH KUMAR SHARMA": {
-                    "password": 1118,
-                    "user": [
-                        "DINESH KUMAR SHARMA"
-                    ]
-                }
-            }
-        },
-        "SO": {
-            "ANDHERI": {
-                "RAJESH BRIJ BHUSHAN SINGH": {
-                    "password": 1510,
-                    "user": [
-                        "RAJESH BRIJ BHUSHAN SINGH"
-                    ]
-                }
-            },
-            "VIRAR": {
-                "KRISHNA  SHYAMLAL YADAV": {
-                    "password": 2257,
-                    "user": [
-                        "KRISHNA  SHYAMLAL YADAV"
-                    ]
-                }
-            },
-            "CENTRAL MUMBAI": {
-                "SANTOSH LAXMAN MANE": {
-                    "password": 1980,
-                    "user": [
-                        "SANTOSH LAXMAN MANE"
-                    ]
-                }
-            },
-            "SOUTH MUMBAI": {
-                "SUSHIL PANDURANG TATE": {
-                    "password": 1976,
-                    "user": [
-                        "SUSHIL PANDURANG TATE"
-                    ]
-                }
-            },
-            "PUNE": {
-                "MANESH POPATLAL KARNAWAT": {
-                    "password": 2308,
-                    "user": [
-                        "MANESH POPATLAL KARNAWAT"
-                    ]
-                }
-            },
-            "RATNAGIRI ": {
-                "SHAILESH MANOHAR SURVE ": {
-                    "password": "sh07",
-                    "user": [
-                        "SHAILESH MANOHAR SURVE "
-                    ]
-                }
-            },
-            "KOLHAPUR": {
-                "RUPESH RAJENDRA KADAM": {
-                    "password": "Rupesh@06",
-                    "user": [
-                        "RUPESH RAJENDRA KADAM"
-                    ]
-                }
-            },
-            "NASHIK": {
-                "RAHUL RANGNATH KHAIRNAR": {
-                    "password": "R9900",
-                    "user": [
-                        "RAHUL RANGNATH KHAIRNAR"
-                    ]
-                }
-            }
-        },
-        "TSI": {
-            "ANDHERI": {
-                "SIDDHARTH SHRIKRISHNA JAISWAR": {
-                    "password": 2614,
-                    "user": [
-                        "SIDDHARTH SHRIKRISHNA JAISWAR"
-                    ]
-                }
-            }
-        },
-        "SR": {
-            "PALGHAR": {
-                "ARUN KUMAR RAM LOCHAN": {
-                    "password": 2258,
-                    "user": [
-                        "ARUN KUMAR RAM LOCHAN"
-                    ]
-                },
-                "IRFAN  MEHABOOB SHAIKH": {
-                    "password": 2259,
-                    "user": [
-                        "IRFAN  MEHABOOB SHAIKH"
-                    ]
-                }
-            },
-            "VASAI EAST": {
-                "DARSHIT SAYANI": {
-                    "password": 2260,
-                    "user": [
-                        "DARSHIT SAYANI"
-                    ]
-                },
-                "VIMALESH PRAJAPATI": {
-                    "password": 2264,
-                    "user": [
-                        "VIMALESH PRAJAPATI"
-                    ]
-                },
-                "SATISH DUBEY": {
-                    "password": 2265,
-                    "user": [
-                        "SATISH DUBEY"
-                    ]
-                }
-            },
-            "NALLASOPAR EAST": {
-                "ISHWAR NAGIN MAKAWANA": {
-                    "password": 2261,
-                    "user": [
-                        "ISHWAR NAGIN MAKAWANA"
-                    ]
-                }
-            },
-            "VASAI WEST": {
-                "SHIV SANKAR SONI": {
-                    "password": 2262,
-                    "user": [
-                        "SHIV SANKAR SONI"
-                    ]
-                },
-                "MILIND DHANESHA": {
-                    "password": 2276,
-                    "user": [
-                        "MILIND DHANESHA"
-                    ]
-                }
-            },
-            "NALLASOPAR WEST": {
-                "SANDEEP KUMAR JAISWAL": {
-                    "password": 2263,
-                    "user": [
-                        "SANDEEP KUMAR JAISWAL"
-                    ]
-                }
-            },
-            "BHAYANDER": {
-                "BRIJESH MAHENDRA AGRAWAL": {
-                    "password": 2266,
-                    "user": [
-                        "BRIJESH MAHENDRA AGRAWAL"
-                    ]
-                },
-                "ASU DUBEY": {
-                    "password": 2272,
-                    "user": [
-                        "ASU DUBEY"
-                    ]
-                },
-                "PRIYANSHU DUBEY": {
-                    "password": 2273,
-                    "user": [
-                        "PRIYANSHU DUBEY"
-                    ]
-                }
-            },
-            "NALLASOPARA EAST": {
-                "AMIT SANJAY MISHRA": {
-                    "password": 2267,
-                    "user": [
-                        "AMIT SANJAY MISHRA"
-                    ]
-                },
-                "SUHAS SURESH PATIL": {
-                    "password": 2270,
-                    "user": [
-                        "SUHAS SURESH PATIL"
-                    ]
-                },
-                "RAMESH BHOBI": {
-                    "password": 2275,
-                    "user": [
-                        "RAMESH BHOBI"
-                    ]
-                }
-            },
-            "DAHISAR": {
-                "PRATEEK SHAILESH WAGHELA": {
-                    "password": 2268,
-                    "user": [
-                        "PRATEEK SHAILESH WAGHELA"
-                    ]
-                },
-                "GHANSHYAM GIRDHARILAL": {
-                    "password": 2269,
-                    "user": [
-                        "GHANSHYAM GIRDHARILAL"
-                    ]
-                },
-                "SANTOSH MOHAN JIJIRE": {
-                    "password": 2271,
-                    "user": [
-                        "SANTOSH MOHAN JIJIRE"
-                    ]
-                },
-                "YASH LALU BHAI BHARWAD": {
-                    "password": 2274,
-                    "user": [
-                        "YASH LALU BHAI BHARWAD"
-                    ]
-                }
-            },
-            "MALAD": {
-                "ADIL KHAN": {
-                    "password": 1234,
-                    "user": [
-                        "ADIL KHAN"
-                    ]
-                },
-                "AJEET PRATAP SINGH": {
-                    "password": 4567,
-                    "user": [
-                        "AJEET PRATAP SINGH"
-                    ]
-                },
-                "JIGNESH BHAILALA PATEL": {
-                    "password": 4455,
-                    "user": [
-                        "JIGNESH BHAILALA PATEL"
-                    ]
-                },
-                "RITESH KANDU": {
-                    "password": 7788,
-                    "user": [
-                        "RITESH KANDU"
-                    ]
-                }
-            },
-            "GOREGOAN": {
-                "JOSHI HIMANSU RAMAVTAR": {
-                    "password": 7890,
-                    "user": [
-                        "JOSHI HIMANSU RAMAVTAR"
-                    ]
-                },
-                "JAYBIND RAMJEET YADAV": {
-                    "password": 2233,
-                    "user": [
-                        "JAYBIND RAMJEET YADAV"
-                    ]
-                }
-            },
-            "ANDHERI": {
-                "VISHAL GAUD": {
-                    "password": 1122,
-                    "user": [
-                        "VISHAL GAUD"
-                    ]
-                }
-            },
-            "KANDIVALI": {
-                "SUJEET KUMAR JHA": {
-                    "password": 3344,
-                    "user": [
-                        "SUJEET KUMAR JHA"
-                    ]
-                },
-                "SHAILENDRA KUMAR RAJENDR": {
-                    "password": 5566,
-                    "user": [
-                        "SHAILENDRA KUMAR RAJENDR"
-                    ]
-                },
-                "SANJIV BHAGESHWAR JHA": {
-                    "password": 8899,
-                    "user": [
-                        "SANJIV BHAGESHWAR JHA"
-                    ]
-                }
-            },
-            "JOGESHWARI": {
-                "KAMALJEET KUMAR JHA": {
-                    "password": 6677,
-                    "user": [
-                        "KAMALJEET KUMAR JHA"
-                    ]
-                }
-            },
-            "COLABA": {
-                "ARVIND  GUPTA": {
-                    "password": 1981,
-                    "user": [
-                        "ARVIND  GUPTA"
-                    ]
-                },
-                "BRIJLAL BISAT": {
-                    "password": 1982,
-                    "user": [
-                        "BRIJLAL BISAT"
-                    ]
-                }
-            },
-            "WORLI": {
-                "ARUN KUMAR DUBEY": {
-                    "password": 1983,
-                    "user": [
-                        "ARUN KUMAR DUBEY"
-                    ]
-                },
-                "JYOTISH JAISWAL": {
-                    "password": 1984,
-                    "user": [
-                        "JYOTISH JAISWAL"
-                    ]
-                }
-            },
-            "SHIWDI": {
-                "SANJAY YADAV": {
-                    "password": 1985,
-                    "user": [
-                        "SANJAY YADAV"
-                    ]
-                }
-            },
-            "WADALA": {
-                "ASIF SIDDIQUI": {
-                    "password": 1986,
-                    "user": [
-                        "ASIF SIDDIQUI"
-                    ]
-                }
-            },
-            "WADALA RTO": {
-                "ALFREID DIGO VAZ": {
-                    "password": 1987,
-                    "user": [
-                        "ALFREID DIGO VAZ"
-                    ]
-                }
-            },
-            "DHARAVI": {
-                "DURGA PRASAD GUPTA": {
-                    "password": 1988,
-                    "user": [
-                        "DURGA PRASAD GUPTA"
-                    ]
-                }
-            },
-            "KURLA": {
-                "IMRAN SHAIKH": {
-                    "password": 1989,
-                    "user": [
-                        "IMRAN SHAIKH"
-                    ]
-                },
-                "SHERYAL SANJEEV JAYISWER": {
-                    "password": 1990,
-                    "user": [
-                        "SHERYAL SANJEEV JAYISWER"
-                    ]
-                }
-            },
-            "GHATKOPAR": {
-                "BOHAT DEEPAK PREM": {
-                    "password": 1991,
-                    "user": [
-                        "BOHAT DEEPAK PREM"
-                    ]
-                },
-                "GAYAZ SHAIKH": {
-                    "password": 1992,
-                    "user": [
-                        "GAYAZ SHAIKH"
-                    ]
-                }
-            },
-            "KURLA EAST": {
-                "SABHAPATI LALLAN SINGH": {
-                    "password": 1993,
-                    "user": [
-                        "SABHAPATI LALLAN SINGH"
-                    ]
-                }
-            },
-            "CHEMBUR": {
-                "FAIZAN ANSARI": {
-                    "password": 1994,
-                    "user": [
-                        "FAIZAN ANSARI"
-                    ]
-                },
-                "PANKAJ MOHANLAL SUHANDA": {
-                    "password": 1995,
-                    "user": [
-                        "PANKAJ MOHANLAL SUHANDA"
-                    ]
-                }
-            },
-            "SHIVAJI NAGAR": {
-                "SHAIKH MOHAMMED NABI MOHAMMAD": {
-                    "password": 1996,
-                    "user": [
-                        "SHAIKH MOHAMMED NABI MOHAMMAD"
-                    ]
-                }
-            },
-            "MANKHURD": {
-                "NADEEM MOHD JASIM SHAIKH": {
-                    "password": 1997,
-                    "user": [
-                        "NADEEM MOHD JASIM SHAIKH"
-                    ]
-                },
-                "RIYAZ SHAIKH": {
-                    "password": 1998,
-                    "user": [
-                        "RIYAZ SHAIKH"
-                    ]
-                }
-            },
-            "VIKHROLI": {
-                "ANIL DHOLE": {
-                    "password": 1999,
-                    "user": [
-                        "ANIL DHOLE"
-                    ]
-                },
-                "NARSIMHA BHANDARI": {
-                    "password": 2000,
-                    "user": [
-                        "NARSIMHA BHANDARI"
-                    ]
-                }
-            },
-            "BHANDUP": {
-                "JAYESHKUMAR S PUNMIYA": {
-                    "password": 2001,
-                    "user": [
-                        "JAYESHKUMAR S PUNMIYA"
-                    ]
-                },
-                "NISHANT SINGH": {
-                    "password": 2002,
-                    "user": [
-                        "NISHANT SINGH"
-                    ]
-                }
-            },
-            "PUNE": {
-                "ABHAY KUMAR": {
-                    "password": 1999,
-                    "user": [
-                        "ABHAY KUMAR"
-                    ]
-                },
-                "PRATIK SANJAY VIDHATE": {
-                    "password": 1001,
-                    "user": [
-                        "PRATIK SANJAY VIDHATE"
-                    ]
-                },
-                "PRAVIN TIWARI": {
-                    "password": 2501,
-                    "user": [
-                        "PRAVIN TIWARI"
-                    ]
-                },
-                "DNYANESHWAR  JADHAV": {
-                    "password": 1999,
-                    "user": [
-                        "DNYANESHWAR  JADHAV"
-                    ]
-                }
-            },
-            "RATNAGIRI ": {
-                "TEJAS BHASKAR JADAHAV": {
-                    "password": "mh08",
-                    "user": [
-                        "TEJAS BHASKAR JADAHAV"
-                    ]
-                }
-            },
-            "SAWANTWADI ": {
-                "VISHNU VIJAY BANDEKAR": {
-                    "password": "mh07",
-                    "user": [
-                        "VISHNU VIJAY BANDEKAR"
-                    ]
-                }
-            },
-            "KOLHAPUR": {
-                "SARDAR ISHWARA PATIL": {
-                    "password": "Sardar@09",
-                    "user": [
-                        "SARDAR ISHWARA PATIL"
-                    ]
-                }
-            },
-            "GOVENAKA": {
-                "SINTESHWARANAND SUBHODANAND": {
-                    "password": 1151,
-                    "user": [
-                        "SINTESHWARANAND SUBHODANAND"
-                    ]
-                }
-            },
-            "ULHASHNAGAR": {
-                "SUNIL DHALUMAL MEGHWANI": {
-                    "password": 1153,
-                    "user": [
-                        "SUNIL DHALUMAL MEGHWANI"
-                    ]
-                },
-                "SUNIL SAKHARAM JADHAV": {
-                    "password": 1287,
-                    "user": [
-                        "SUNIL SAKHARAM JADHAV"
-                    ]
-                },
-                "SURAJ MANOHAR KANOJIA": {
-                    "password": 1147,
-                    "user": [
-                        "SURAJ MANOHAR KANOJIA"
-                    ]
-                }
-            },
-            "BADLAPUR": {
-                "CHANDRAKANT  TAMBE": {
-                    "password": 1166,
-                    "user": [
-                        "CHANDRAKANT  TAMBE"
-                    ]
-                }
-            },
-            "KALYAN": {
-                "SANTOSH HALDAR": {
-                    "password": 1156,
-                    "user": [
-                        "SANTOSH HALDAR"
-                    ]
-                },
-                "ARUN DAMODAR PADAWAL": {
-                    "password": 1289,
-                    "user": [
-                        "ARUN DAMODAR PADAWAL"
-                    ]
-                },
-                "GITE SUJIT CHANDRAKANT": {
-                    "password": 1132,
-                    "user": [
-                        "GITE SUJIT CHANDRAKANT"
-                    ]
-                }
-            },
-            "DOBIVALI": {
-                "VIVEK UDAY KUMAR SINGH": {
-                    "password": 1142,
-                    "user": [
-                        "VIVEK UDAY KUMAR SINGH"
-                    ]
-                },
-                "PRAKASH TIWARI": {
-                    "password": 1141,
-                    "user": [
-                        "PRAKASH TIWARI"
-                    ]
-                },
-                "SABHADINDE VILAS MADAN": {
-                    "password": 1678,
-                    "user": [
-                        "SABHADINDE VILAS MADAN"
-                    ]
-                }
-            },
-            "BHIWANDI": {
-                "MAHADEV GURNATH MAHTRE": {
-                    "password": 1168,
-                    "user": [
-                        "MAHADEV GURNATH MAHTRE"
-                    ]
-                },
-                "KAUSHIK RAJESH THAKKAR": {
-                    "password": 1295,
-                    "user": [
-                        "KAUSHIK RAJESH THAKKAR"
-                    ]
-                }
-            },
-            "VIRAR": {
-                "ANUJ KRIPASHANKAR SINGH": {
-                    "password": 1146,
-                    "user": [
-                        "ANUJ KRIPASHANKAR SINGH"
-                    ]
-                }
-            },
-            "AMBIVALI": {
-                "SAMEER GANI  SHAIKH ": {
-                    "password": 1136,
-                    "user": [
-                        "SAMEER GANI  SHAIKH "
-                    ]
-                }
-            },
-            "THANE": {
-                "SUNIL L WAGHMARE": {
-                    "password": 1127,
-                    "user": [
-                        "SUNIL L WAGHMARE"
-                    ]
-                }
-            },
-            "MUMBRA": {
-                "KHAN ARIFA IMRAN": {
-                    "password": 1291,
-                    "user": [
-                        "KHAN ARIFA IMRAN"
-                    ]
-                }
-            },
-            "DIVA": {
-                "ANUJ TRIPATHI": {
-                    "password": 1176,
-                    "user": [
-                        "ANUJ TRIPATHI"
-                    ]
-                }
-            },
-            "KALWA": {
-                "PRADEEP BABURAM AGRAHAR": {
-                    "password": 1120,
-                    "user": [
-                        "PRADEEP BABURAM AGRAHAR"
-                    ]
-                }
-            },
-            "AROLI": {
-                "PRAVESH KESHAV SINGH": {
-                    "password": 1178,
-                    "user": [
-                        "PRAVESH KESHAV SINGH"
-                    ]
-                }
-            }
-        }
-    },
-    "Maharasthra": {
         "SR": {
             "PUNE": {
                 "Nitesh Kumar Jha": {
@@ -2554,6 +1888,132 @@
                     "password": 5830,
                     "user": [
                         "PRATIK VIDHATE"
+                    ]
+                }
+            },
+            "KOLHAPUR": {
+                "SARDAR PATIL": {
+                    "password": 7380,
+                    "user": [
+                        "SARDAR PATIL"
+                    ]
+                }
+            },
+            "RATNAGIRI": {
+                "TEJAS JADHAV": {
+                    "password": 8557,
+                    "user": [
+                        "TEJAS JADHAV"
+                    ]
+                },
+                "SANDEEP KULKAR": {
+                    "password": 2797,
+                    "user": [
+                        "SANDEEP KULKAR"
+                    ]
+                },
+                "SANKET JADYAL": {
+                    "password": 6924,
+                    "user": [
+                        "SANKET JADYAL"
+                    ]
+                }
+            },
+            "SINDHUDURG": {
+                "VISHNU BANDEKAR": {
+                    "password": 3220,
+                    "user": [
+                        "VISHNU BANDEKAR"
+                    ]
+                }
+            },
+            "Nagpur": {
+                "PRAKASH SIDAM": {
+                    "password": 1618,
+                    "user": [
+                        "PRAKASH SIDAM"
+                    ]
+                }
+            },
+            "NAGPUR": {
+                "RAHUL AMBADKAR": {
+                    "password": 5879,
+                    "user": [
+                        "RAHUL AMBADKAR"
+                    ]
+                }
+            },
+            "Gondia": {
+                "Jagdish Lanjewar": {
+                    "password": 5413,
+                    "user": [
+                        "Jagdish Lanjewar"
+                    ]
+                }
+            }
+        },
+        "SO": {
+            "KOLHAPUR": {
+                "RUPESH KADAM": {
+                    "password": 4179,
+                    "user": [
+                        "RUPESH KADAM"
+                    ]
+                }
+            },
+            "Nagpur": {
+                "Tarun Meshram": {
+                    "password": 5807,
+                    "user": [
+                        "Tarun Meshram"
+                    ]
+                }
+            },
+            "PUNE": {
+                "Manesh P. Karnawat": {
+                    "password": 1505,
+                    "user": [
+                        "Manesh P. Karnawat"
+                    ]
+                },
+                "BHAGWAT DONGARE": {
+                    "password": 3257,
+                    "user": [
+                        "BHAGWAT DONGARE"
+                    ]
+                }
+            },
+            "RATNAGIRI": {
+                "Shailesh Surve": {
+                    "password": 4977,
+                    "user": [
+                        "Shailesh Surve"
+                    ]
+                }
+            }
+        },
+        "ASM": {
+            "Nagpur": {
+                "Kapil Sharma": {
+                    "password": 7365,
+                    "user": [
+                        "Kapil Sharma"
+                    ]
+                }
+            },
+            "PUNE": {
+                "SUNIL NAGARE": {
+                    "password": 9288,
+                    "user": [
+                        "SUNIL NAGARE"
+                    ]
+                }
+            },
+            "Kolhapur": {
+                "Rakesh Tripathi": {
+                    "password": 5843,
+                    "user": [
+                        "Rakesh Tripathi"
                     ]
                 }
             }
@@ -2590,18 +2050,6 @@
                     "password": 9902,
                     "user": [
                         "Manoj Das sahu"
-                    ]
-                }
-            }
-        }
-    },
-    "Himanchal Pradesh": {
-        "SR": {
-            "Solan- Noodle": {
-                "Pankaj Walia": {
-                    "password": 3922,
-                    "user": [
-                        "Pankaj Walia"
                     ]
                 }
             }
