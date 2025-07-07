@@ -85,9 +85,6 @@
           <img src="https://priyagold.eazydms.in/img/logo.png" alt="Logo" width=150>
           
           <h2 style="text-align:center">Priya Gold TA/DA Form</h2>
-          <h4 style="color: red; font-weight: bold;">
-  Still TA/DA form are hold. Some changes — wait until 8 July.
-</h4>
     </div>
 
   <label for="state">State:</label>
@@ -215,7 +212,9 @@
         <th>Day</th>
         <th>Place From</th>
         <th>Place To</th>
+        <th>Is Hills Applicable</th>
         <th>Distance in Km</th>
+        <th>DA (₹)</th>
         <th>Night Allowance (₹)</th>
       </tr>`;
 
@@ -225,7 +224,15 @@
           <td>Day ${i}</td>
           <td><input type="text" name="place_from_${i}" /></td>
           <td><input type="text" name="place_to_${i}" /></td>
+          <td>
+            <select name="is_hills_applicable_${i}">
+                <option value="">--Select--</option>
+                <option value="Yes">Yes</option>
+                <option value="No" selected>No</option>
+            </select>
+            </td>
           <td><input type="number" name="distance_${i}" min="0" /></td>
+          <td><input type="number" name="da_${i}" min="0" /></td>
           <td><input type="number" name="night_allowance_${i}" min="0" /></td>
         </tr>`;
     }

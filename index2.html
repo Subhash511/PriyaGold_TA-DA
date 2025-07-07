@@ -128,6 +128,7 @@
   <div class="success hidden" id="successMessage">Form submitted successfully!</div>
 </form>
 
+
 <script>
   let jsonData = {};
   const stateEl = document.getElementById('state');
@@ -233,7 +234,14 @@
             </td>
           <td><input type="number" name="distance_${i}" min="0" /></td>
           <td><input type="number" name="da_${i}" min="0" /></td>
-          <td><input type="number" name="night_allowance_${i}" min="0" /></td>
+          <td>
+            <select name="night_allowance_${i}">
+                <option value="">--Select--</option>
+                <option value="Yes">Yes</option>
+                <option value="No" selected>No</option>
+            </select>
+            </td>
+
         </tr>`;
     }
 
