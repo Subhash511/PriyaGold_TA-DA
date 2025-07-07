@@ -76,6 +76,28 @@
         max-width: 100%;
         height: auto;
         }
+        .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+      flex-wrap: wrap; /* Makes it responsive */
+    }
+
+    .button-container a {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #28a745; /* Bootstrap green */
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .button-container a:hover {
+      background-color: #218838; /* Darker green on hover */
+    }
   </style>
 </head>
 <body>
@@ -126,6 +148,11 @@
   <br><br>
   <button type="submit" id="submitBtn">Submit</button>
   <div class="success hidden" id="successMessage">Form submitted successfully!</div>
+
+  <div class="button-container">
+      <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTsJhK2qCuuIZyGB--UZ8rpn0xs5iB4_17Uh13mC8YEeekzxiSNwgoUJ6tBogdVbTSUnkhAtfhHmlpe/pubhtml?gid=1890595691&single=true">Click for TA DA Status</a>
+    
+    </div>
 </form>
 
 
