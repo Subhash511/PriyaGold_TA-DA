@@ -85,9 +85,6 @@
           <img src="https://priyagold.eazydms.in/img/logo.png" alt="Logo" width=150>
           
           <h2 style="text-align:center">Priya Gold TA/DA Form</h2>
-          <h4 style="color: red; font-weight: bold;">
-  Still TA/DA form are hold. Some changes — wait until 8 July.
-</h4>
     </div>
 
   <label for="state">State:</label>
@@ -130,6 +127,7 @@
   <button type="submit" id="submitBtn">Submit</button>
   <div class="success hidden" id="successMessage">Form submitted successfully!</div>
 </form>
+
 
 <script>
   let jsonData = {};
@@ -215,7 +213,9 @@
         <th>Day</th>
         <th>Place From</th>
         <th>Place To</th>
+        <th>Is Hills Applicable</th>
         <th>Distance in Km</th>
+        <th>DA (₹)</th>
         <th>Night Allowance (₹)</th>
       </tr>`;
 
@@ -225,8 +225,23 @@
           <td>Day ${i}</td>
           <td><input type="text" name="place_from_${i}" /></td>
           <td><input type="text" name="place_to_${i}" /></td>
+          <td>
+            <select name="is_hills_applicable_${i}">
+                <option value="">--Select--</option>
+                <option value="Yes">Yes</option>
+                <option value="No" selected>No</option>
+            </select>
+            </td>
           <td><input type="number" name="distance_${i}" min="0" /></td>
-          <td><input type="number" name="night_allowance_${i}" min="0" /></td>
+          <td><input type="number" name="da_${i}" min="0" /></td>
+          <td>
+            <select name="night_allowance_${i}">
+                <option value="">--Select--</option>
+                <option value="Yes">Yes</option>
+                <option value="No" selected>No</option>
+            </select>
+            </td>
+
         </tr>`;
     }
 
@@ -289,26 +304,55 @@
     };
   }
 
+    // const rows = document.querySelectorAll("#taDaTable tr");
+    // rows.forEach((row, index) => {
+    //   if (index === 0) return; // skip header
+    //   const inputs = row.querySelectorAll("input");
+    //   const [from, to, hills, distance, da, night] = inputs;
+    //   const day = row.querySelector("td")?.textContent;
+    //   if (from?.value || to?.value || hills?.value|| distance?.value || da?.value|| night?.value) {
+    //     formData.Entries.push({
+    //       Day: day,
+    //       Place_From: from.value.trim(),
+    //       Place_To: to.value.trim(),
+    //       hills:hills.value.trim(),
+    //       Distance_KM: distance.value.trim(),
+    //       da:da.value.trim(),
+    //       Night_Allowance_Rs: night.value.trim()
+    //     });
+    //   }
+    // });
     const rows = document.querySelectorAll("#taDaTable tr");
     rows.forEach((row, index) => {
-      if (index === 0) return; // skip header
-      const inputs = row.querySelectorAll("input");
-      const [from, to, distance, night] = inputs;
-      const day = row.querySelector("td")?.textContent;
-      if (from?.value || to?.value || distance?.value || night?.value) {
-        formData.Entries.push({
-          Day: day,
-          Place_From: from.value.trim(),
-          Place_To: to.value.trim(),
-          Distance_KM: distance.value.trim(),
-          Night_Allowance_Rs: night.value.trim()
-        });
-      }
-    });
+    if (index === 0) return; // skip header
 
+    const from = row.querySelector('input[name^="place_from"]');
+    const to = row.querySelector('input[name^="place_to"]');
+    const hills = row.querySelector('select[name^="is_hills_applicable"]');
+    const distance = row.querySelector('input[name^="distance"]');
+    const da = row.querySelector('input[name^="da"]');
+    const night = row.querySelector('select[name^="night_allowance"]');
+
+    const day = row.querySelector("td")?.textContent;
+
+    if (from?.value || to?.value || hills?.value || distance?.value || da?.value || night?.value) {
+      formData.Entries.push({
+        Day: day,
+        Place_From: from.value.trim(),
+        Place_To: to.value.trim(),
+        Hills: hills.value.trim(),
+        Distance_KM: distance.value.trim(),
+        Da: da.value.trim(),
+        Night_Allowance_Rs: night.value.trim()
+      });
+    }
+  });
+
+    console.log(formData)
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbx02pijsNJ6yneyqxwInaSqzxyO0G3quT92-Wld8IpyxHULuPuJBLB03fKC_E15KsxecQ/exec", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbyBNVHjKS4AxbFOU-t-n2vuOKuWB1DiwFL28_scCjxb2PhP4AQ2xDzCM07reo70MWiWeQ/exec", {
         method: "POST",
+        content:{"Content-Type": "application/json"},
         body: JSON.stringify(formData)
       });
 
