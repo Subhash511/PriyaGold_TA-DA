@@ -1175,6 +1175,12 @@
                     "user": [
                         "Avtar Singh|PGPB1016"
                     ]
+                },
+                "Gurjinder singh|PGPB1038": {
+                    "password": 344,
+                    "user": [
+                        "Gurjinder singh|PGPB1038"
+                    ]
                 }
             },
             "Muktsar-malout": {
@@ -1392,6 +1398,12 @@
                 }
             },
             "Alwar": {
+                "Dinesh Singh|PGRJ1093": {
+                    "password": 2272,
+                    "user": [
+                        "Dinesh Singh|PGRJ1093"
+                    ]
+                },
                 "Monu Agarwal|PGRJ1050": {
                     "password": 5890,
                     "user": [
@@ -1408,6 +1420,14 @@
                     "password": 7020,
                     "user": [
                         "Subhash Sharma|PGRJ1086"
+                    ]
+                }
+            },
+            "Amritsar": {
+                "Amit Kumar|PGPB1037": {
+                    "password": 9658,
+                    "user": [
+                        "Amit Kumar|PGPB1037"
                     ]
                 }
             },
@@ -1695,6 +1715,12 @@
                     "user": [
                         "Ravi Gochar|PGRJ1031"
                     ]
+                },
+                "Sonu|PGRJ1095": {
+                    "password": 8664,
+                    "user": [
+                        "Sonu|PGRJ1095"
+                    ]
                 }
             },
             "Mahwa": {
@@ -1732,6 +1758,12 @@
                     "password": 6160,
                     "user": [
                         "Karan Sharma|PGRJ1074"
+                    ]
+                },
+                "Ramswarup Meena|PGRJ1094": {
+                    "password": 5160,
+                    "user": [
+                        "Ramswarup Meena|PGRJ1094"
                     ]
                 }
             },
@@ -1936,6 +1968,12 @@
                 }
             },
             "Haridwar": {
+                "Ashok Kumar|PGUK1026": {
+                    "password": 2902,
+                    "user": [
+                        "Ashok Kumar|PGUK1026"
+                    ]
+                },
                 "Saurabh Arya|PGUK1023": {
                     "password": 7703,
                     "user": [
