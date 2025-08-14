@@ -255,6 +255,12 @@
                     "user": [
                         "Ramesh Sadarani|PGGJ1038"
                     ]
+                },
+                "Shashi Bhushan Mishra|PGGJ1045": {
+                    "password": 1123,
+                    "user": [
+                        "Shashi Bhushan Mishra|PGGJ1045"
+                    ]
                 }
             },
             "Surat- Navsari": {
@@ -320,14 +326,6 @@
                     "password": 4758,
                     "user": [
                         "Moh Aizaz Mansoori|PGGJ1015"
-                    ]
-                }
-            },
-            "surat": {
-                "Shashi Bhushan Mishra|PGGJ1045": {
-                    "password": 1123,
-                    "user": [
-                        "Shashi Bhushan Mishra|PGGJ1045"
                     ]
                 }
             }
@@ -731,6 +729,14 @@
                     ]
                 }
             },
+            "Sirsa": {
+                "Sandeep Kumar|PGHR1063": {
+                    "password": 4643,
+                    "user": [
+                        "Sandeep Kumar|PGHR1063"
+                    ]
+                }
+            },
             "Sirsa- Rania": {
                 "Amit Kumar|PGHR1002": {
                     "password": 1813,
@@ -775,9 +781,7 @@
                     "user": [
                         "Sanjeev Kumar Chachara|PGHR1046"
                     ]
-                }
-            },
-            "Y.nagar": {
+                },
                 "Sukhvir|PGHR1060": {
                     "password": 5651,
                     "user": [
@@ -963,19 +967,17 @@
                     ]
                 }
             },
-            "PUNE": {
-                "Rajesh More|PGMH1023": {
-                    "password": 3518,
-                    "user": [
-                        "Rajesh More|PGMH1023"
-                    ]
-                }
-            },
             "Pune": {
                 "Nitesh Kumar Jha|PGMH1018": {
                     "password": 7213,
                     "user": [
                         "Nitesh Kumar Jha|PGMH1018"
+                    ]
+                },
+                "Rajesh More|PGMH1023": {
+                    "password": 3518,
+                    "user": [
+                        "Rajesh More|PGMH1023"
                     ]
                 }
             },
@@ -1027,7 +1029,7 @@
                     ]
                 }
             },
-            "zirakpur-Chandigarh": {
+            "Zirakpur-Chandigarh": {
                 "Rohit Mediratta|PGPB1036": {
                     "password": 4235,
                     "user": [
@@ -1095,11 +1097,27 @@
             }
         },
         "SR": {
+            "Abohar- Noodles": {
+                "Deepak Rohila|PGPB1039": {
+                    "password": 7018,
+                    "user": [
+                        "Deepak Rohila|PGPB1039"
+                    ]
+                }
+            },
             "Amritsar": {
                 "Amit Sharma|PGPB1018": {
                     "password": 6174,
                     "user": [
                         "Amit Sharma|PGPB1018"
+                    ]
+                }
+            },
+            "Bathinda": {
+                "Jaspreet singh|PGPB1042": {
+                    "password": 4074,
+                    "user": [
+                        "Jaspreet singh|PGPB1042"
                     ]
                 }
             },
@@ -1233,7 +1251,7 @@
                     ]
                 }
             },
-            "Muktsar-malout": {
+            "Muktsar-Malout": {
                 "Narendra Kumar|PGPB1025": {
                     "password": 4009,
                     "user": [
@@ -1270,6 +1288,22 @@
                     "password": 8975,
                     "user": [
                         "Jasvir Singh|PGPB1022"
+                    ]
+                }
+            },
+            "Sangrur-Khanauri": {
+                "Darpanjit Singh|PGPB1041": {
+                    "password": 7145,
+                    "user": [
+                        "Darpanjit Singh|PGPB1041"
+                    ]
+                }
+            },
+            "Sangrur-Noodles-Khanauri": {
+                "Nikhil Jain|PGPB1040": {
+                    "password": 2550,
+                    "user": [
+                        "Nikhil Jain|PGPB1040"
                     ]
                 }
             }
@@ -1431,6 +1465,12 @@
                     "user": [
                         "Sanjay Chouhan|PGRJ1019"
                     ]
+                },
+                "Vivek Tiwari|PGRJ1112": {
+                    "password": 7300,
+                    "user": [
+                        "Vivek Tiwari|PGRJ1112"
+                    ]
                 }
             },
             "Ajmer-Nagour": {
@@ -1582,6 +1622,18 @@
                 }
             },
             "Ganganagar": {
+                "Amit Garg|PGRJ1115": {
+                    "password": 9500,
+                    "user": [
+                        "Amit Garg|PGRJ1115"
+                    ]
+                },
+                "Deepak Arora|PGRJ1116": {
+                    "password": 3892,
+                    "user": [
+                        "Deepak Arora|PGRJ1116"
+                    ]
+                },
                 "Hardik Negi|PGRJ1021": {
                     "password": 7952,
                     "user": [
@@ -1700,6 +1752,18 @@
                         "Sourabh Agarwal|PGRJ1040"
                     ]
                 },
+                "Suresh Sharma|PGRJ1114": {
+                    "password": 5243,
+                    "user": [
+                        "Suresh Sharma|PGRJ1114"
+                    ]
+                },
+                "VIKAS SHARMA|PGRJ1113": {
+                    "password": 2910,
+                    "user": [
+                        "VIKAS SHARMA|PGRJ1113"
+                    ]
+                },
                 "Vikas Khangwal|PGRJ1041": {
                     "password": 5769,
                     "user": [
@@ -1799,7 +1863,15 @@
                     ]
                 }
             },
-            "Neem Ka Thana-sikar": {
+            "Mandawa-Jhunjhunu": {
+                "Kuldeep Dotasara|PGRJ1097": {
+                    "password": 9325,
+                    "user": [
+                        "Kuldeep Dotasara|PGRJ1097"
+                    ]
+                }
+            },
+            "Neem Ka Thana-Sikar": {
                 "Bhairu singh shekhawat|PGRJ1096": {
                     "password": 1,
                     "user": [
@@ -1908,14 +1980,6 @@
                     "password": 2628,
                     "user": [
                         "Moshin Khan|PGRJ1015"
-                    ]
-                }
-            },
-            "mandawa-Jhunjhunu": {
-                "Kuldeep Dotasara|PGRJ1097": {
-                    "password": 9325,
-                    "user": [
-                        "Kuldeep Dotasara|PGRJ1097"
                     ]
                 }
             }
@@ -2125,14 +2189,6 @@
                     ]
                 }
             },
-            "ROORKEE": {
-                "Krish|PGUK1025": {
-                    "password": 4082,
-                    "user": [
-                        "Krish|PGUK1025"
-                    ]
-                }
-            },
             "Rishikesh": {
                 "Deepak|PGUK1027": {
                     "password": 2968,
@@ -2144,6 +2200,14 @@
                     "password": 7698,
                     "user": [
                         "Ganesh|PGUK1024"
+                    ]
+                }
+            },
+            "Roorkee": {
+                "Krish|PGUK1025": {
+                    "password": 4082,
+                    "user": [
+                        "Krish|PGUK1025"
                     ]
                 }
             }
