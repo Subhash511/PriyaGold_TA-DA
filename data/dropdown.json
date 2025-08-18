@@ -408,6 +408,12 @@
                         "Daman Preet Singh|PGHR1044"
                     ]
                 },
+                "Manjeet Chahal|PGHR1059": {
+                    "password": 913,
+                    "user": [
+                        "Manjeet Chahal|PGHR1059"
+                    ]
+                },
                 "Vishal|PGHR1050": {
                     "password": 8655,
                     "user": [
@@ -1149,9 +1155,7 @@
                     "user": [
                         "Jaswant Singh|PGPB1002"
                     ]
-                }
-            },
-            "Malout- Bathinda-": {
+                },
                 "Pankaj Kumar|PGPB1004": {
                     "password": 9644,
                     "user": [
