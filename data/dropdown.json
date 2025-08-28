@@ -632,6 +632,12 @@
                 }
             },
             "Karnal": {
+                "Dheeraj|PGHR10": {
+                    "password": 281,
+                    "user": [
+                        "Dheeraj|PGHR10"
+                    ]
+                },
                 "Dheeraj|PGHR1064": {
                     "password": 281,
                     "user": [
@@ -664,6 +670,14 @@
                     "password": 9669,
                     "user": [
                         "Sohan Lal|PGHR1043"
+                    ]
+                }
+            },
+            "Narnaul": {
+                "Naveen Samadiya|PGHR1065": {
+                    "password": 849,
+                    "user": [
+                        "Naveen Samadiya|PGHR1065"
                     ]
                 }
             },
@@ -1330,6 +1344,14 @@
                         "Nikhil Jain|PGPB1040"
                     ]
                 }
+            },
+            "mohali": {
+                "Gurjinder singh|PGPB1037": {
+                    "password": 344,
+                    "user": [
+                        "Gurjinder singh|PGPB1037"
+                    ]
+                }
             }
         }
     },
@@ -1404,6 +1426,12 @@
                     "password": 5021,
                     "user": [
                         "Dilip Kumar Rinwa|PGRJ1111"
+                    ]
+                },
+                "Dilip Kumar Rinwa|PGRJ1125": {
+                    "password": 5021,
+                    "user": [
+                        "Dilip Kumar Rinwa|PGRJ1125"
                     ]
                 }
             },
@@ -1705,6 +1733,20 @@
                     "user": [
                         "Sadam Khan|PGRJ1027"
                     ]
+                },
+                "Vikram Gaur|PGRJ1127": {
+                    "password": 9968,
+                    "user": [
+                        "Vikram Gaur|PGRJ1127"
+                    ]
+                }
+            },
+            "Ganganagar-Noodles & candy": {
+                "sourbh|PGRJ1121": {
+                    "password": 3421,
+                    "user": [
+                        "sourbh|PGRJ1121"
+                    ]
                 }
             },
             "Hanumangarh": {
@@ -1825,6 +1867,12 @@
                     "user": [
                         "Ishwar Vaishnav|PGRJ1088"
                     ]
+                },
+                "Pushpak  Dhadich|PGRJ1126": {
+                    "password": 5256,
+                    "user": [
+                        "Pushpak  Dhadich|PGRJ1126"
+                    ]
                 }
             },
             "Kota": {
@@ -1856,6 +1904,14 @@
                     "password": 8100,
                     "user": [
                         "Ravi Gochar|PGRJ1031"
+                    ]
+                }
+            },
+            "Kota-Urban": {
+                "Deepak Naruka|PGRJ1122": {
+                    "password": 5798,
+                    "user": [
+                        "Deepak Naruka|PGRJ1122"
                     ]
                 }
             },
@@ -1908,6 +1964,18 @@
                     "password": 2045,
                     "user": [
                         "Mukesh Parmar|PGRJ1045"
+                    ]
+                },
+                "Prabhu Ram Dewashi|PGRJ1123": {
+                    "password": 1093,
+                    "user": [
+                        "Prabhu Ram Dewashi|PGRJ1123"
+                    ]
+                },
+                "Shaitan Singh|PGRJ1046": {
+                    "password": 7504,
+                    "user": [
+                        "Shaitan Singh|PGRJ1046"
                     ]
                 }
             },
