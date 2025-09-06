@@ -240,7 +240,7 @@
         <th>Day</th>
         <th>Place From</th>
         <th>Place To</th>
-        <th>Is Hills Applicable</th>
+        <th>Type of Travel</th>
         <th>Distance in Km</th>
         <th>DA (₹)</th>
         <th>Night Allowance (₹)</th>
@@ -255,8 +255,11 @@
           <td>
             <select name="is_hills_applicable_${i}">
                 <option value="">--Select--</option>
-                <option value="Yes">Yes</option>
-                <option value="No" selected>No</option>
+                <option value="Local" selected>Local</option>
+                <option value="Outer">Outer</option>
+                <option value="Leave">Leave</option>
+                <option value="Weekly Off/Sunday">Weekly Off/Sunday</option>
+                <option value="Holiday">Holiday</option>
             </select>
             </td>
           <td><input type="number" name="distance_${i}" min="0" /></td>
