@@ -290,7 +290,7 @@ function validateRow(i) {
   let distance = document.getElementById(`distance_${i}`);
   let da = document.getElementById(`da_${i}`);
 
-  if (["Local", "Holiday", "Weekly Off/Sunday","Leave"].includes(travelType)) {
+  if (["Holiday", "Weekly Off/Sunday","Leave"].includes(travelType)) {
     distance.value = 0;
     distance.readOnly = true;
     da.value = 0;
@@ -298,7 +298,10 @@ function validateRow(i) {
   } else if (["Outer", "Meeting"].includes(travelType)) {
     distance.readOnly = false;
     da.readOnly = false;
-  } else {
+  } else if (["Local"].includes(travelType)) {
+    distance.readOnly = false;
+    da.readOnly = false;
+  }else {
     distance.readOnly = false;
     da.readOnly = false;
   }
