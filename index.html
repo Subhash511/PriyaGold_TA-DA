@@ -299,7 +299,8 @@ function validateRow(i) {
     distance.readOnly = false;
     da.readOnly = false;
   } else if (["Local"].includes(travelType)) {
-    distance.readOnly = false;
+    distance.value = 0;
+    distance.readOnly = true;
     da.readOnly = false;
   }else {
     distance.readOnly = false;
