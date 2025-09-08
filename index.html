@@ -240,7 +240,7 @@ function generateTable(startDay, endDay) {
         <th>Day</th>
         <th>Place From</th>
         <th>Place To</th>
-        <th>Type of Travel</th>
+        <th>Type_of_Travel</th>
         <th>Distance in Km</th>
         <th>DA (₹)</th>
         <th>Night Allowance (₹)</th>
@@ -303,7 +303,6 @@ function validateRow(i) {
     da.readOnly = false;
   }
 }
-
 // Distance check for Outer/Meeting
 function checkDistance(i) {
   let travelType = document.querySelector(`[name="is_hills_applicable_${i}"]`).value;
@@ -315,9 +314,7 @@ function checkDistance(i) {
   }
 }
 
-
-  
-
+ 
   weekEl.addEventListener("change", () => {
     const selectedWeek = weekEl.value;
     taDaTableContainer.classList.remove("hidden");
