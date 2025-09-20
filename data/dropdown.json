@@ -112,6 +112,12 @@
                         "Amit Kumar Patel|PGGJ1024"
                     ]
                 },
+                "Deepak M Padhiyar|PGGJ1059": {
+                    "password": 8403,
+                    "user": [
+                        "Deepak M Padhiyar|PGGJ1059"
+                    ]
+                },
                 "Dhansukh Algotar|PGGJ1025": {
                     "password": 8541,
                     "user": [
@@ -178,6 +184,14 @@
                     "password": 9247,
                     "user": [
                         "Rahul Marwadi|PGGJ1030"
+                    ]
+                }
+            },
+            "Dahod": {
+                "Kanugo kashif Raza|PGGJ1058": {
+                    "password": 1217,
+                    "user": [
+                        "Kanugo kashif Raza|PGGJ1058"
                     ]
                 }
             },
@@ -530,6 +544,12 @@
                 }
             },
             "Bhiwani": {
+                "Nikesh|PGHRA1074": {
+                    "password": 2573,
+                    "user": [
+                        "Nikesh|PGHRA1074"
+                    ]
+                },
                 "Suresh Kumar|PGHR1022": {
                     "password": 6424,
                     "user": [
@@ -656,6 +676,14 @@
                     "password": 2516,
                     "user": [
                         "Amit|PGHR1024"
+                    ]
+                }
+            },
+            "Jhajjar- Noodle": {
+                "Dinesh Vohria|PGHR1075": {
+                    "password": 6168,
+                    "user": [
+                        "Dinesh Vohria|PGHR1075"
                     ]
                 }
             },
@@ -2164,6 +2192,12 @@
                         "Moheen Khan|PGRJ1129"
                     ]
                 },
+                "Piyush Soni|PGRJ1137": {
+                    "password": 1068,
+                    "user": [
+                        "Piyush Soni|PGRJ1137"
+                    ]
+                },
                 "Pushpak  Dhadich|PGRJ1126": {
                     "password": 5256,
                     "user": [
@@ -2391,6 +2425,14 @@
             }
         },
         "TSM": {
+            "Ajmer": {
+                "Kuldeep Singh Rao|PGRJ1136": {
+                    "password": 1058,
+                    "user": [
+                        "Kuldeep Singh Rao|PGRJ1136"
+                    ]
+                }
+            },
             "Jaipur": {
                 "Prem Narayan Pareek|PGRJ1120": {
                     "password": 1040,
@@ -2486,6 +2528,12 @@
                     "password": 7049,
                     "user": [
                         "Rishabh Seth|PGUK1007"
+                    ]
+                },
+                "Sunil Kumar|PGUK1031": {
+                    "password": 4926,
+                    "user": [
+                        "Sunil Kumar|PGUK1031"
                     ]
                 }
             },
