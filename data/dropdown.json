@@ -401,6 +401,14 @@
                     ]
                 }
             },
+            "Faridabad": {
+                "Hany sharma|PGHR1077": {
+                    "password": 3574,
+                    "user": [
+                        "Hany sharma|PGHR1077"
+                    ]
+                }
+            },
             "Gurgaon": {
                 "Badal Srivastava|PGHR1051": {
                     "password": 4177,
@@ -476,6 +484,14 @@
                         "Raj Kawar|PGHR1030"
                     ]
                 }
+            },
+            "Sirsa": {
+                "Sheetan Monga|PGHR1076": {
+                    "password": 8264,
+                    "user": [
+                        "Sheetan Monga|PGHR1076"
+                    ]
+                }
             }
         },
         "SR": {
@@ -544,6 +560,12 @@
                 }
             },
             "Bhiwani": {
+                "Nikesh|PGHR1074": {
+                    "password": 2573,
+                    "user": [
+                        "Nikesh|PGHR1074"
+                    ]
+                },
                 "Nikesh|PGHRA1074": {
                     "password": 2573,
                     "user": [
@@ -626,6 +648,12 @@
                     "password": 7849,
                     "user": [
                         "Arun|PGHR1031"
+                    ]
+                },
+                "Deepak kumar|PGHR1078": {
+                    "password": 7914,
+                    "user": [
+                        "Deepak kumar|PGHR1078"
                     ]
                 },
                 "Rajkumar|PGHR1032": {
@@ -939,11 +967,11 @@
                     ]
                 }
             },
-            "Solan- Noodle": {
-                "Pankaj Walia|PGHP1006": {
-                    "password": 3922,
+            "Kangra": {
+                "Ajay Kumar Saini|PGHP1006": {
+                    "password": 7914,
                     "user": [
-                        "Pankaj Walia|PGHP1006"
+                        "Ajay Kumar Saini|PGHP1006"
                     ]
                 }
             }
@@ -2464,6 +2492,16 @@
                     "password": 7335,
                     "user": [
                         "Shalabh Pratap|PGUK1016"
+                    ]
+                }
+            }
+        },
+        "SO": {
+            "Haldwani": {
+                "Rohitash singh |PGUK1032": {
+                    "password": 5259,
+                    "user": [
+                        "Rohitash singh |PGUK1032"
                     ]
                 }
             }
