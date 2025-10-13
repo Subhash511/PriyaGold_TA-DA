@@ -1,6 +1,14 @@
 {
     "Gujarat": {
         "ASM": {
+            "Ahmedabad": {
+                "Mitul Pandya|PGGJ1063": {
+                    "password": 8479,
+                    "user": [
+                        "Mitul Pandya|PGGJ1063"
+                    ]
+                }
+            },
             "Bhuj": {
                 "Sahil Mansuri|PGGJ1005": {
                     "password": 5896,
@@ -128,6 +136,12 @@
                     "password": 1305,
                     "user": [
                         "Milan Patel|PGGJ1027"
+                    ]
+                },
+                "Pathan Salman|PGGJ1065": {
+                    "password": 9399,
+                    "user": [
+                        "Pathan Salman|PGGJ1065"
                     ]
                 },
                 "Pravin Thakor|PGGJ1028": {
@@ -322,10 +336,22 @@
                         "Dharmesh Goswami|PGGJ1035"
                     ]
                 },
+                "Dinesh m raycha|PGGJ1064": {
+                    "password": 4157,
+                    "user": [
+                        "Dinesh m raycha|PGGJ1064"
+                    ]
+                },
                 "Kushal Garasiya |PGGJ1052": {
                     "password": 8588,
                     "user": [
                         "Kushal Garasiya |PGGJ1052"
+                    ]
+                },
+                "Pritesh Bhariya|PGGJ1066": {
+                    "password": 221,
+                    "user": [
+                        "Pritesh Bhariya|PGGJ1066"
                     ]
                 },
                 "Ramesh Sadarani|PGGJ1038": {
@@ -1884,6 +1910,12 @@
                         "Amit Sharma|PGPB1018"
                     ]
                 },
+                "Lal Chand|PGPB1053": {
+                    "password": 7480,
+                    "user": [
+                        "Lal Chand|PGPB1053"
+                    ]
+                },
                 "Mohit Kumar|PGPB1047": {
                     "password": 6365,
                     "user": [
@@ -1955,6 +1987,12 @@
                     "user": [
                         "Kulwinder Singh|PGPB1049"
                     ]
+                },
+                "Shubham Tivari|PGPB1054": {
+                    "password": 7852,
+                    "user": [
+                        "Shubham Tivari|PGPB1054"
+                    ]
                 }
             },
             "Fazilka -Malout": {
@@ -2016,6 +2054,14 @@
                     "password": 6199,
                     "user": [
                         "Sanjeev Kumar Varma|PGPB1021"
+                    ]
+                }
+            },
+            "Malerkotla": {
+                "Rohit Sharma|PGPB1055": {
+                    "password": 309,
+                    "user": [
+                        "Rohit Sharma|PGPB1055"
                     ]
                 }
             },
@@ -2399,6 +2445,12 @@
                     "user": [
                         "Subhash Sharma|PGRJ1086"
                     ]
+                },
+                "Vivek Agarwal|PGRJ1141": {
+                    "password": 3547,
+                    "user": [
+                        "Vivek Agarwal|PGRJ1141"
+                    ]
                 }
             },
             "Banswara": {
@@ -2428,6 +2480,12 @@
                     "password": 9065,
                     "user": [
                         "Kapil Sain|PGRJ1010"
+                    ]
+                },
+                "Mukesh Kumar|PGRJ1142": {
+                    "password": 7790,
+                    "user": [
+                        "Mukesh Kumar|PGRJ1142"
                     ]
                 },
                 "Yashpal Kumar Devnani|PGRJ1132": {
@@ -3011,6 +3069,14 @@
                     ]
                 }
             },
+            "Dehradun": {
+                "Rajat Sharma|PGUK1035": {
+                    "password": 3185,
+                    "user": [
+                        "Rajat Sharma|PGUK1035"
+                    ]
+                }
+            },
             "Haldwani": {
                 "Girish Singh|PGUK1029": {
                     "password": 5862,
@@ -3030,6 +3096,12 @@
                     "password": 2902,
                     "user": [
                         "Ashok Kumar|PGUK1026"
+                    ]
+                },
+                "Kunal Kori|PGUK1036": {
+                    "password": 4743,
+                    "user": [
+                        "Kunal Kori|PGUK1036"
                     ]
                 },
                 "Saurabh Arya|PGUK1023": {
@@ -3120,6 +3192,12 @@
                 }
             },
             "Vikasnagar": {
+                "Amit Rana|PGUK1034": {
+                    "password": 5592,
+                    "user": [
+                        "Amit Rana|PGUK1034"
+                    ]
+                },
                 "Manish Verma|PGUK1030": {
                     "password": 2011,
                     "user": [
