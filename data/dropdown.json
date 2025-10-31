@@ -354,6 +354,12 @@
                         "Dinesh m raycha|PGGJ1064"
                     ]
                 },
+                "Imtiyaz Hussain|PGGJ1069": {
+                    "password": 8191,
+                    "user": [
+                        "Imtiyaz Hussain|PGGJ1069"
+                    ]
+                },
                 "Kushal Garasiya |PGGJ1052": {
                     "password": 8588,
                     "user": [
@@ -442,14 +448,6 @@
                     "password": 4758,
                     "user": [
                         "Moh Aizaz Mansoori|PGGJ1015"
-                    ]
-                }
-            },
-            "surat": {
-                "Imtiyaz Hussain|PGGJ1069": {
-                    "password": 8191,
-                    "user": [
-                        "Imtiyaz Hussain|PGGJ1069"
                     ]
                 }
             }
@@ -968,6 +966,12 @@
                     "password": 4643,
                     "user": [
                         "Sandeep Kumar|PGHR1063"
+                    ]
+                },
+                "Vishal|PGHR1081": {
+                    "password": 3182,
+                    "user": [
+                        "Vishal|PGHR1081"
                     ]
                 }
             },
@@ -2013,6 +2017,14 @@
                     ]
                 }
             },
+            "Bhagta Bhai": {
+                "Jitender |PGPB1057": {
+                    "password": 1737,
+                    "user": [
+                        "Jitender |PGPB1057"
+                    ]
+                }
+            },
             "Chandigarh": {
                 "Jeevan Kumar|PGPB1011": {
                     "password": 1289,
@@ -2117,6 +2129,14 @@
                     ]
                 }
             },
+            "Moga-Bathinda": {
+                "parminder Kumar|PGPB1046": {
+                    "password": 5672,
+                    "user": [
+                        "parminder Kumar|PGPB1046"
+                    ]
+                }
+            },
             "Mohali": {
                 "Avtar Singh|PGPB1016": {
                     "password": 3385,
@@ -2198,14 +2218,6 @@
                     "password": 2550,
                     "user": [
                         "Nikhil Jain|PGPB1040"
-                    ]
-                }
-            },
-            "moga-bathinda": {
-                "parminder Kumar|PGPB1046": {
-                    "password": 5672,
-                    "user": [
-                        "parminder Kumar|PGPB1046"
                     ]
                 }
             }
@@ -3195,7 +3207,7 @@
                     ]
                 }
             },
-            "Haldwani-noodles": {
+            "Haldwani-Noodles": {
                 "Sarik Abrar|PGUK1041": {
                     "password": 4025,
                     "user": [
