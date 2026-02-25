@@ -140,6 +140,14 @@
                         "Nikhil Singh|PGGJ1056"
                     ]
                 }
+            },
+            "Vadodara": {
+                "Ankit Mehta|PGGJ1108": {
+                    "password": 8794,
+                    "user": [
+                        "Ankit Mehta|PGGJ1108"
+                    ]
+                }
             }
         },
         "SR": {
@@ -504,12 +512,6 @@
                 }
             },
             "Vadodara": {
-                "Ankit Mehta|PGGJ1108": {
-                    "password": 8794,
-                    "user": [
-                        "Ankit Mehta|PGGJ1108"
-                    ]
-                },
                 "Asif Iqbalbhai Rathod|PGGJ1124": {
                     "password": 6846,
                     "user": [
@@ -1800,12 +1802,6 @@
                         "Rajesh Kumar Tayal|PGRJ1052"
                     ]
                 },
-                "Subhash Sharma|PGRJ1086": {
-                    "password": 7020,
-                    "user": [
-                        "Subhash Sharma|PGRJ1086"
-                    ]
-                },
                 "Vivek Agarwal|PGRJ1141": {
                     "password": 3547,
                     "user": [
@@ -2337,6 +2333,14 @@
             }
         },
         "TSI": {
+            "Alwar": {
+                "Subhash Sharma|PGRJ1086": {
+                    "password": 7020,
+                    "user": [
+                        "Subhash Sharma|PGRJ1086"
+                    ]
+                }
+            },
             "Banswara": {
                 "Jaydeep Kumar Joshi|PGRJ1176": {
                     "password": 4899,
