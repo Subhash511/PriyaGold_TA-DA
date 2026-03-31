@@ -170,6 +170,12 @@
                         "Azaz pathan|PGGJ1116"
                     ]
                 },
+                "Gulab ji Thakor|PGGJ1135": {
+                    "password": 1477,
+                    "user": [
+                        "Gulab ji Thakor|PGGJ1135"
+                    ]
+                },
                 "Himalay khetariya|PGGJ1114": {
                     "password": 6202,
                     "user": [
@@ -378,6 +384,12 @@
                         "Imtiyaz Shahmadar|PGGJ1132"
                     ]
                 },
+                "Mahmad Juneja |PGGJ1136": {
+                    "password": 4698,
+                    "user": [
+                        "Mahmad Juneja |PGGJ1136"
+                    ]
+                },
                 "Manish Lathigara|PGGJ1106": {
                     "password": 4280,
                     "user": [
@@ -388,6 +400,12 @@
                     "password": 6496,
                     "user": [
                         "Parth Parmar|PGGJ1127"
+                    ]
+                },
+                "Pritesh chavda  |PGGJ1137": {
+                    "password": 2025,
+                    "user": [
+                        "Pritesh chavda  |PGGJ1137"
                     ]
                 },
                 "Prithviraj Sinh Zala|PGGJ1093": {
@@ -1086,6 +1104,12 @@
                 }
             },
             "Palwal": {
+                "Arun sharma|PGHR1115": {
+                    "password": 2025,
+                    "user": [
+                        "Arun sharma|PGHR1115"
+                    ]
+                },
                 "Harkesh Tewatia|PGHR1035": {
                     "password": 5868,
                     "user": [
@@ -2243,6 +2267,20 @@
                     ]
                 }
             },
+            "Bathinda-bhagta-conf": {
+                "Abhishek singh|PGPB1089": {
+                    "password": 5224,
+                    "user": [
+                        "Abhishek singh|PGPB1089"
+                    ]
+                },
+                "Gurpratap Singh|PGPB1088": {
+                    "password": 7623,
+                    "user": [
+                        "Gurpratap Singh|PGPB1088"
+                    ]
+                }
+            },
             "Chandigarh": {
                 "Rakesh Kumar|PGPB1068": {
                     "password": 6905,
@@ -2772,6 +2810,12 @@
                 }
             },
             "Bikaner": {
+                "Amit Kumar Bahdani|PGRJ1207": {
+                    "password": 8577,
+                    "user": [
+                        "Amit Kumar Bahdani|PGRJ1207"
+                    ]
+                },
                 "Radhe Shyam |PGRJ1154": {
                     "password": 2054,
                     "user": [
