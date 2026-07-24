@@ -107,6 +107,12 @@
                     "user": [
                         "Jaydeep j. Bhatt|PGGJ1154"
                     ]
+                },
+                "Sumit Dilipbhai Makhecha|PGGJ1194": {
+                    "password": 3502,
+                    "user": [
+                        "Sumit Dilipbhai Makhecha|PGGJ1194"
+                    ]
                 }
             },
             "Surat": {
@@ -158,6 +164,12 @@
                         "Kamlesh Chauhan|PGGJ1095"
                     ]
                 },
+                "Kazi Moh Ashif Abdulkadar|PGGJ1196": {
+                    "password": 3502,
+                    "user": [
+                        "Kazi Moh Ashif Abdulkadar|PGGJ1196"
+                    ]
+                },
                 "Mahesh Desai|PGGJ1157": {
                     "password": 2025,
                     "user": [
@@ -204,6 +216,12 @@
                 }
             },
             "Bhavnagar": {
+                "Naitik  Pandya|PGGJ1048": {
+                    "password": 3502,
+                    "user": [
+                        "Naitik  Pandya|PGGJ1048"
+                    ]
+                },
                 "Parakram Sinh Gohil|PGGJ1113": {
                     "password": 8009,
                     "user": [
@@ -388,6 +406,12 @@
                 }
             },
             "Surat": {
+                "Amaan Ansari|PGGJ1195": {
+                    "password": 3502,
+                    "user": [
+                        "Amaan Ansari|PGGJ1195"
+                    ]
+                },
                 "Ashok Kr Mehra|PGGJ1073": {
                     "password": 4142,
                     "user": [
@@ -763,6 +787,22 @@
                     ]
                 }
             },
+            "Jind-Narwana": {
+                "Somesh Kaushik|PGHR1037": {
+                    "password": 3502,
+                    "user": [
+                        "Somesh Kaushik|PGHR1037"
+                    ]
+                }
+            },
+            "Julana-Jind": {
+                "Bharat|PGHR1140": {
+                    "password": 3502,
+                    "user": [
+                        "Bharat|PGHR1140"
+                    ]
+                }
+            },
             "Kaithal- Kithana": {
                 "Pradeep Kumar|PGHR1039": {
                     "password": 7105,
@@ -858,6 +898,22 @@
                     "password": 1672,
                     "user": [
                         "Roshan|PGHR1128"
+                    ]
+                }
+            },
+            "Sonipat": {
+                "Jatin|PGHR1139": {
+                    "password": 3502,
+                    "user": [
+                        "Jatin|PGHR1139"
+                    ]
+                }
+            },
+            "Tohana-Fatehbad": {
+                "Avinash Dhingra|PGHR1138": {
+                    "password": 3502,
+                    "user": [
+                        "Avinash Dhingra|PGHR1138"
                     ]
                 }
             },
@@ -1005,11 +1061,27 @@
             }
         },
         "SO": {
+            "Bhopal": {
+                "Harish Sarathe|PGMP1088": {
+                    "password": 3502,
+                    "user": [
+                        "Harish Sarathe|PGMP1088"
+                    ]
+                }
+            },
             "Chhattarpur": {
                 "Harish Kumar Dashariya|PGMP1083": {
                     "password": 4375,
                     "user": [
                         "Harish Kumar Dashariya|PGMP1083"
+                    ]
+                }
+            },
+            "Jabalpur": {
+                "Uma Shankar Kushwaha|PGMP1091": {
+                    "password": 3502,
+                    "user": [
+                        "Uma Shankar Kushwaha|PGMP1091"
                     ]
                 }
             },
@@ -1168,6 +1240,12 @@
                 }
             },
             "Indore": {
+                "Dhananjay Patel|PGMP1089": {
+                    "password": 3502,
+                    "user": [
+                        "Dhananjay Patel|PGMP1089"
+                    ]
+                },
                 "Sourabh Sharma|PGMP1007": {
                     "password": 3030,
                     "user": [
@@ -1255,6 +1333,12 @@
                     "user": [
                         "Akash Dwivedi|PGMP1080"
                     ]
+                },
+                "Anuj Singh|PGMP1012": {
+                    "password": 3502,
+                    "user": [
+                        "Anuj Singh|PGMP1012"
+                    ]
                 }
             },
             "Sagar": {
@@ -1268,6 +1352,14 @@
                     "password": 1021,
                     "user": [
                         "Ravi Kumar Yadav|PGMP1058"
+                    ]
+                }
+            },
+            "Satna": {
+                "Vivek Gautam|PGMP1090": {
+                    "password": 3502,
+                    "user": [
+                        "Vivek Gautam|PGMP1090"
                     ]
                 }
             },
@@ -2518,6 +2610,12 @@
                 }
             },
             "Pathankot": {
+                "Dhurv Gupta|PGPB1110": {
+                    "password": 3502,
+                    "user": [
+                        "Dhurv Gupta|PGPB1110"
+                    ]
+                },
                 "Rajiv Kumar|PGPB1019": {
                     "password": 9470,
                     "user": [
@@ -3130,6 +3228,12 @@
                 }
             },
             "Nagaur": {
+                "Gajendra Bakhar|PGRJ1259": {
+                    "password": 3502,
+                    "user": [
+                        "Gajendra Bakhar|PGRJ1259"
+                    ]
+                },
                 "Shaitan Panwar|PGRJ1020": {
                     "password": 5008,
                     "user": [
@@ -3433,6 +3537,14 @@
                     ]
                 }
             },
+            "Haldwani": {
+                "Shamshul|PGUK1074": {
+                    "password": 3502,
+                    "user": [
+                        "Shamshul|PGUK1074"
+                    ]
+                }
+            },
             "Haridwar": {
                 "Anil Kumar Singh|PGUK1065": {
                     "password": 2505,
@@ -3458,6 +3570,12 @@
                 }
             },
             "Dehradun": {
+                "Ritik Kumar|PGUK1075": {
+                    "password": 3502,
+                    "user": [
+                        "Ritik Kumar|PGUK1075"
+                    ]
+                },
                 "Vinay Goel|PGUK1062": {
                     "password": 2025,
                     "user": [
@@ -3492,6 +3610,14 @@
                     "password": 3278,
                     "user": [
                         "Mohit|PGUK1005"
+                    ]
+                }
+            },
+            "Kotdwar": {
+                "Sachin Kumar|PGUK1056": {
+                    "password": 3502,
+                    "user": [
+                        "Sachin Kumar|PGUK1056"
                     ]
                 }
             },
