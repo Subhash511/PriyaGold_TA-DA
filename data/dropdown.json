@@ -1145,6 +1145,14 @@
             }
         },
         "SR": {
+            "Chamba": {
+                "Umesh Kumar|PGHP1020": {
+                    "password": 2025,
+                    "user": [
+                        "Umesh Kumar|PGHP1020"
+                    ]
+                }
+            },
             "Chowari": {
                 "Nitin Choudhary|PGHP1002": {
                     "password": 6041,
@@ -2757,6 +2765,14 @@
                     ]
                 }
             },
+            "Patiala": {
+                "Joginder Singh|PGPB1118": {
+                    "password": 2920,
+                    "user": [
+                        "Joginder Singh|PGPB1118"
+                    ]
+                }
+            },
             "Tran Tarn": {
                 "Harpreet Singh|PGPB1076": {
                     "password": 9120,
@@ -3812,6 +3828,12 @@
                 }
             },
             "Jodhpur": {
+                "Akhil Gaur|PGRJ1273": {
+                    "password": 5551,
+                    "user": [
+                        "Akhil Gaur|PGRJ1273"
+                    ]
+                },
                 "Ratan Singh|PGRJ1249": {
                     "password": 2693,
                     "user": [
@@ -3944,6 +3966,12 @@
         },
         "SR": {
             "Almora": {
+                "Jeewan Singh Bora|PGUK1084": {
+                    "password": 8697,
+                    "user": [
+                        "Jeewan Singh Bora|PGUK1084"
+                    ]
+                },
                 "Pankaj Tiwari|PGUK1001": {
                     "password": 9050,
                     "user": [
