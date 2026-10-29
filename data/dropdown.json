@@ -401,6 +401,12 @@
                     "user": [
                         "Alhasan kasiri|PGGJ1138"
                     ]
+                },
+                "Samir Kadari|PGGJ1217": {
+                    "password": 7861,
+                    "user": [
+                        "Samir Kadari|PGGJ1217"
+                    ]
                 }
             },
             "Mahuwa-Bhavnagar": {
@@ -500,12 +506,6 @@
                     "password": 9053,
                     "user": [
                         "Rishi Bharat Bhai Doshi|PGGJ1160"
-                    ]
-                },
-                "Samir Kadari|PGGJ1217": {
-                    "password": 7861,
-                    "user": [
-                        "Samir Kadari|PGGJ1217"
                     ]
                 },
                 "Singhal Navin Kumar Becharbhai|PGGJ1205": {
@@ -677,6 +677,14 @@
                     ]
                 }
             },
+            "Umargam-Surat": {
+                "Viram Arjan Bhai Bharwad|PGGJ1179": {
+                    "password": 4843,
+                    "user": [
+                        "Viram Arjan Bhai Bharwad|PGGJ1179"
+                    ]
+                }
+            },
             "Vadodara": {
                 "Farhan Ghasletwala|PGGJ1215": {
                     "password": 8459,
@@ -756,14 +764,6 @@
                     "password": 4768,
                     "user": [
                         "Vasim Shabbir|PGGJ1225"
-                    ]
-                }
-            },
-            "umargam-Surat": {
-                "Viram Arjan Bhai Bharwad|PGGJ1179": {
-                    "password": 4843,
-                    "user": [
-                        "Viram Arjan Bhai Bharwad|PGGJ1179"
                     ]
                 }
             }
@@ -1051,6 +1051,14 @@
                     ]
                 }
             },
+            "Kaithal- Noodles": {
+                "Rakesh Kumar|PGHR1040": {
+                    "password": 9746,
+                    "user": [
+                        "Rakesh Kumar|PGHR1040"
+                    ]
+                }
+            },
             "Karnal": {
                 "Anas|PGHR1151": {
                     "password": 6786,
@@ -1202,14 +1210,6 @@
                         "Raman Mehra|PGHR1145"
                     ]
                 }
-            },
-            "kaithal- Noodles": {
-                "Rakesh Kumar|PGHR1040": {
-                    "password": 9746,
-                    "user": [
-                        "Rakesh Kumar|PGHR1040"
-                    ]
-                }
             }
         }
     },
@@ -1291,7 +1291,7 @@
                     ]
                 }
             },
-            "Ngrota suriya": {
+            "Ngrota Suriya": {
                 "Rajeev Bagga|PGHP1003": {
                     "password": 2572,
                     "user": [
@@ -2937,7 +2937,7 @@
                     ]
                 }
             },
-            "Bathinda-Bhagta-conf": {
+            "Bathinda-Bhagta-Conf": {
                 "Abhishek singh|PGPB1089": {
                     "password": 5224,
                     "user": [
@@ -2945,7 +2945,7 @@
                     ]
                 }
             },
-            "Budhlada-khanauri": {
+            "Budhlada-Khanauri": {
                 "Atish Kumar |PGPB1101": {
                     "password": 9194,
                     "user": [
@@ -2967,7 +2967,7 @@
                     ]
                 }
             },
-            "Jaitu- bhagta bhai": {
+            "Jaitu- Bhagta Bhai": {
                 "Sukhwant Singh|PGPB1062": {
                     "password": 2025,
                     "user": [
@@ -3019,7 +3019,7 @@
                     ]
                 }
             },
-            "Muktsar-malout": {
+            "Muktsar-Malout": {
                 "Rajinder Kumar|PGPB1103": {
                     "password": 8088,
                     "user": [
@@ -3485,7 +3485,7 @@
                     ]
                 }
             },
-            "Ganganagar city-dausa": {
+            "Ganganagar City-Dausa": {
                 "Vikas Kumar Sain|PGRJ1236": {
                     "password": 2025,
                     "user": [
@@ -3793,7 +3793,7 @@
                     ]
                 }
             },
-            "Sawai madhopur": {
+            "Sawai Madhopur": {
                 "Atul Tiwari|PGRJ1173": {
                     "password": 2025,
                     "user": [
