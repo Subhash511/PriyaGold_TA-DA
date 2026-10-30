@@ -1467,12 +1467,6 @@
                     "user": [
                         "Amir khan|PGMP1086"
                     ]
-                },
-                "Nikhil Mohan Jain|PGMP1010": {
-                    "password": 2025,
-                    "user": [
-                        "Nikhil Mohan Jain|PGMP1010"
-                    ]
                 }
             },
             "Bhopal": {
@@ -1859,6 +1853,14 @@
             }
         },
         "TSI": {
+            "Bhind": {
+                "Nikhil Mohan Jain|PGMP1010": {
+                    "password": 2025,
+                    "user": [
+                        "Nikhil Mohan Jain|PGMP1010"
+                    ]
+                }
+            },
             "Bhopal": {
                 "Satish Sahu|PGMP1119": {
                     "password": 6497,
